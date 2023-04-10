@@ -1,0 +1,23 @@
+Pentru o sala de fitness a fost dezvoltata o aplicatie pentru programarea antrenamentului pe timp de pandemie. 
+Fiecare client are un cont, in care acesta se logheaza la deschiderea aplicatiei. 
+Acesta va selecta si programa un interval orar de max. 3 ore in decursul zilei actuale,
+aparandu-i in timp real disponibilitatea (max 20 clienti simultan in sala) si nivelul de aglomeratie.
+Exista posibilitatea de a anula o programare si de a reinnoi abonamentul.
+In paralel se deschide o fereastra pentru staff, in care se vor notifica programarile si in care se pot vizuliza in functie de ora.
+
+
+Actori:
+Staff
+Client
+
+Cazuri de utilizare:
+
+Autentificare (staff+client)
+
+Vizualizare programari(staff)
+Filtrare dupa interval orar(staff)
+
+Programare antrenament(client)
+Anulare programare(client)
+Vizualizare programari(client)
+Innoire abonament(client)

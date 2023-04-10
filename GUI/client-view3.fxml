@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.salafitness.ClientView">
+   <children>
+      <Button layoutX="22.0" layoutY="66.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="131.0" text="Programare Noua" />
+      <Button layoutX="22.0" layoutY="109.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="131.0" text="Programari" />
+      <Button layoutX="22.0" layoutY="152.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="131.0" text="Abonamente" />
+      <Button layoutX="66.0" layoutY="200.0" mnemonicParsing="false" text="Iesire" />
+      <Line endX="100.0" endY="-52.999996185302734" layoutX="86.0" layoutY="53.0" startX="100.0" startY="347.0" />
+      <TableView layoutX="264.0" layoutY="95.0" prefHeight="212.0" prefWidth="254.0">
+         <columns>
+            <TableColumn prefWidth="128.79998779296875" text="Data" />
+            <TableColumn prefWidth="125.60003662109375" text="Status" />
+         </columns>
+      </TableView>
+      <Label layoutX="342.0" layoutY="39.0" text="Abonamente">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Button layoutX="324.0" layoutY="327.0" mnemonicParsing="false" text="Prelungire abonament" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.salafitness.StaffView2">
+   <children>
+      <AnchorPane layoutX="10.0" layoutY="10.0" prefHeight="400.0" prefWidth="600.0">
+         <children>
+            <Button layoutX="22.0" layoutY="146.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="131.0" text="Programari" />
+            <Button layoutX="22.0" layoutY="95.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="131.0" text="Creare cont client" />
+            <Button layoutX="66.0" layoutY="200.0" mnemonicParsing="false" text="Iesire" />
+            <Line endX="100.0" endY="-52.999996185302734" layoutX="86.0" layoutY="53.0" startX="100.0" startY="347.0" />
+            <TextField layoutX="300.0" layoutY="38.0" promptText="Nume" />
+            <TextField layoutX="300.0" layoutY="82.0" promptText="Prenume" />
+            <TextField layoutX="300.0" layoutY="121.0" promptText="CNP" />
+            <TextField layoutX="300.0" layoutY="159.0" promptText="Email" />
+            <ComboBox layoutX="299.0" layoutY="200.0" prefWidth="150.0" promptText="Tip Abonament" />
+            <DatePicker layoutX="299.0" layoutY="238.0" prefHeight="26.0" prefWidth="150.0" promptText="Data Inceput" />
+            <Button layoutX="332.0" layoutY="292.0" mnemonicParsing="false" text="Creeaza cont" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
